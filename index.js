@@ -5,7 +5,7 @@ const port = 3000
 
 const client = new microgenV3.MicrogenClient({
   apiKey: process.env.API_KEY,
-  url: "https://api.stagingv3.microgen.id"
+  url: "https://database-query.stagingv3.microgen.id"
 })
 
 app.get('/', (req, res) => {
